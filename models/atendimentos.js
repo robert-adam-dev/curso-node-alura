@@ -13,7 +13,7 @@ class Atendimento {
             {
             nome: 'data',
             valido: dataEhValida,
-            mensagem: 'Data dever ser maior ou igual a data atual.'
+            mensagem: 'Data inválida. Data deve ser posterior a data atual.'
              },
             {
             nome: 'cliente',
