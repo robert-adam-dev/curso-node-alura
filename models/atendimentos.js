@@ -7,7 +7,7 @@ class Atendimento {
         const dataCriacao = moment().format('YYYY-MM-DD HH:MM:SS');
         const data = moment(atendimento.data, 'DD/MM/YYYY').format('YYYY-MM-DD HH:MM:SS');
         const dataEhValida = moment(data).isSameOrAfter(dataCriacao);
-        const clienteEhValido = atendimento.client.length >= 5;
+        const clienteEhValido = atendimento.cliente.length >= 5;
 
         const validacoes = [
             {
